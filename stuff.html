@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRAF</title>
+    <link rel="stylesheet" href="stuff.css">
+</head>
+<body>
+    <header>
+        <img src="slike/iraffewd.png" alt="logo" id="i0001">
+        <p id="p0001">international real aikido federation</p>
+        <div class="cboth"></div>
+        <nav id="n0001">
+            <a class="a0001" href="index.html">početna</a>
+            <a class="a0001" href="aboutus.html">o nama</a>
+            <a class="a0001" href="galery.html">galerija</a>
+            <a class="a0001" href="stuff.html">igra</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Pogodi broj:</h1>
+        <p id="tvojBr"></p>
+        <p id="drugiBr"></p>
+        <p id="poruka"></p>
+    </main>
+    <footer>
+        <p>Copyright&copy; | All rights reserved | 2020. </p> 
+        <p>Created by Diša&trade;</p>
+    </footer>
+    <script>
+        var x=prompt("Unesite broj od 1 do 100:");
+        document.getElementById('tvojBr').innerHTML="Uneti broj:"+" "+x;
+        var y=Math.ceil(Math.random()*100+1);
+        document.getElementById('drugiBr').innerHTML="Dobijeni broj: "+y;
+        if (x==y) {
+            document.getElementById('poruka').innerHTML="Čestitamo, pogodili ste broj!"
+        } else {
+            document.getElementById('poruka').innerHTML='Niste pogodili broj, pokušajte ponovo.'
+        }
+    </script>
+</body>
+</html>

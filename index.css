@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(slike/bckgrnd.png);
+    background-size: cover;
+    height: 98vw;
+}
+header{
+    height: 30vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#i0001{
+    float: left;
+    width: 400px;
+    height: 300px;  
+}
+#p0001{
+    margin-top: 2%;
+    margin-bottom: 0.8%;
+    float: left;
+    font-size: 300%;
+    display: block;
+    color: gold;
+    text-transform: uppercase;
+    padding-left: 10%;
+    word-spacing: 35px;
+    text-shadow: 1px 1px 2px rgb(31, 30, 30), 0 0 25px goldenrod, 0 0 5px rgb(155, 133, 9);
+}
+.cboth{clear: both;}
+#n0001{padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    float: left;
+    width: 89vw;
+    background-color: gray;
+}
+.a0001 {
+    padding-left: 2.4%;
+    padding-right: 2.4%;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.a0001:hover{padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    background-color: rgb(170, 170, 170);
+}
+main{
+    background-color: rgb(200, 200, 200);
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 62vw;
+    padding-top: 1%;
+    padding-left: 4.5%;
+    color: rgb(32, 32, 32);
+}
+#ar001{
+    width: 40vw;
+    border: 1px double rgb(32, 32, 32);
+    background-color: rgb(140, 140, 140);
+    float: left;
+}
+#h3{
+    text-transform: uppercase;
+    padding: 1%;
+}
+.ap01{
+    padding: 1%;
+}
+#ljuba{
+    width: 40vw;
+    height: 306px;
+    border: 1px double rgb(32, 32, 32) ;
+}
+#a0002{
+    text-decoration: none;
+    color: darkblue;
+}
+#a0002:hover{
+    color: red;
+}
+#s001{
+    margin-top: 5%;
+    float: left;
+}
+#s001 img{
+    width: 300px;
+    height: 450px;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 5px;
+}
+#s001 ul{
+    margin-top: 1%;
+    list-style-position: inside;
+}
+.li001{
+    list-style: none; 
+    text-align: center;
+    padding-bottom: 1%;
+}
+#s002{
+    margin-top: 5%;
+    float: left;
+    margin-left: 10%;
+}
+#s002 img{
+width: 300px;
+height: 450px;
+outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 5px;
+}
+#s003{
+    margin-top: 5%;
+    float: right;
+    margin-right: 5%;
+}
+#s003 img{
+    width: 300px;
+height: 450px;
+outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 5px;
+}
+footer{
+    margin-top: 2%;
+    text-align: center;
+    color: lightgray;
+}
